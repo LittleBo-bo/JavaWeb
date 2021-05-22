@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <bean id="VS" class="com.cb.service.VisitServiceImpl"/>
+    <bean id="DPC" class="com.cb.diy.DiyPointCut"/>
+
+   <!-- <aop:config>
+        <aop:aspect ref="DPC">
+            <aop:pointcut id="PC" expression="execution(* com.cb.service.VisitServiceImpl.*(..))"/>
+            <aop:before method="before" pointcut-ref="PC"/>
+            <aop:after method="after" pointcut-ref="PC"/>
+            <aop:after-returning method="returning" pointcut-ref="PC"/>
+            <aop:after-throwing method="throwing" pointcut-ref="PC"/>
+        </aop:aspect>
+    </aop:config>-->
+
+
+    <!--注解支持-->
+
+    <!--开启注解支持-->
+    <bean id="annotationPointCut" class="com.cb.diy.AnnotationPointCut"/>
+    <aop:aspectj-autoproxy/>
+</beans>

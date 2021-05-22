@@ -1,0 +1,113 @@
+body{ margin:0px; background:#FAFAFA; }
+#row1{
+	height:80px; background:#FCFCFC;
+	
+}
+#row2{
+	height:38px; background:rgb(255,248,240);
+}
+#row3{
+	height:475px; background:rgb(233,56,84);
+}
+#row4{
+	height:50px; 
+}
+
+/* ---------------- [] ---------------- */
+#titleBlk{
+	width:1180px; height:80px; 
+	margin:auto;
+}
+#priBlk{
+	width:1180px; height:38px; 
+	margin:auto; color:#999;
+	text-align:center; line-height:38px;
+}
+#loginBlk{
+	width:1180px; height:475px; 
+	margin:auto; color:#999;
+}
+
+/* ---------------- [] ---------------- */
+#loginBox{
+	width:346px; height:400px;
+	background:orange; float:right;
+	margin:25px 50px;
+}
+
+#d1{
+	height:39px; background:rgb(255,248,240);
+	font-size:13px; text-align:center;
+	line-height:39px;
+}
+#d2{
+	height:54px; background:#FEFEFE;
+	border-bottom:1px solid #DDD;
+	color:red; font-size:22px;
+	line-height:54px; text-indent:15px;
+}
+#d3{
+	height:255px; background:#FEFEFE;
+}
+#d4{
+	height:50px; 
+	background:url('../images/login/bottom.png');
+}
+
+.iptBox{
+	width:304px; height:38px;
+	border:1px solid #DDD;
+	margin:20px 18px;
+}
+
+.iptBox div{
+	width:38px; height:38px;
+	float:left; border-right:1px solid #DDD;
+}
+
+[type='text']{
+	border:none; outline:none; float:left;
+	font-size:16px; height:38px;
+	background:#FEFEFE; text-indent:7px;
+	color:#666;
+}
+
+.btnLogin{
+	background:red; color:white;
+	width:245px; height:35px;
+	text-align:center; line-height:35px;
+	font-size:18px; margin:35px auto;
+	cursor:pointer;
+}
+
+
+/* ---------------- [] ---------------- */
+
+
+#logo{
+	/*box-shadow:0px 0px 5px 10px #333;*/
+	text-shadow:#BBB 2px 2px 2px;
+	font-size:40px; margin-left:50px;
+	line-height:80px; float:left;
+	color:red;
+}
+#text{
+	float:left;
+	margin-left:25px;
+	font-size:25px;
+	margin-top:30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,6 @@
+# Project exclude paths
+/javaweb-filter/target/
+/javaweb-session-cookie/target/
+/out/
+/Request/target/
+/Response/target/
